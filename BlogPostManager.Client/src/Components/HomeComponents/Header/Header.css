@@ -1,0 +1,32 @@
+.header-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    height: 30vh;
+    flex-direction: column;
+}
+
+.title-heading {
+    max-width: 900px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.keywork {
+    color: lightblue;
+}
+
+.title-subheading{
+    margin-top: 30px;
+    max-width: 800px;
+    font-size: 22px;
+    text-align: center;
+    font-size: 100;
+    color: rgb(154, 151, 151);
+}
+

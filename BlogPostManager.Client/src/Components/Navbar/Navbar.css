@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+
+    gap: 70em;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.navlinks Link {
+    padding: 10 20;
+}
+.active-link ,
+.navlinks Link:hover {
+    padding: 5px 15px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 15px;
+}

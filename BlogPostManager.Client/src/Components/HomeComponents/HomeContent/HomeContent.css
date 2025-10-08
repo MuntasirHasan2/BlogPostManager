@@ -1,0 +1,38 @@
+/* .container{
+    display: block;
+}
+.content{
+    display: block;
+} */
+
+.subtitle{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
+.catogory-button-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.categories-button{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,180px));
+    column-gap:10px;
+    row-gap: 20px;
+}
+
+.blog-list-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.blog-list{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,500px);
+    column-gap:10px;
+    row-gap: 20px;
+}

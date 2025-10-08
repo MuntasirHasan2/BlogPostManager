@@ -1,0 +1,26 @@
+.button-shell {
+    width: fit-content;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    background-color: rgb(47, 47, 49);
+}
+
+.button-inner-shell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-image img {
+    height: 25px;
+    margin-top: 5px;
+}
+
+.button-text {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
