@@ -6,14 +6,20 @@ open Terminal on cloned Repo
 Run client
 
 cd BlogPostManager.Client
-npm i
+
+npm install
+
 npm run dev
 
 
 open new terminal
+
 cd BlogPostManager.Server
+
 dotnet restore
+
 dotnet ef database update
+
 dotnet run
 
 You can also you postman for a better verification of the backend since with limited time some connection couldn't be made, example of
